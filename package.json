@@ -1,0 +1,23 @@
+{
+  "name": "demo_sass",
+  "version": "1.0.0",
+  "description": "learn sass",
+  "scripts": {
+    "build:css": "node-sass src/app.scss dist/css/app.css -r"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/franksoong/demo_sass.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/franksoong/demo_sass/issues"
+  },
+  "homepage": "https://github.com/franksoong/demo_sass#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sass": "^4.0.1",
+    "node-sass": "^4.9.0"
+  }
+}

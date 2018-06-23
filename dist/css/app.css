@@ -1,0 +1,51 @@
+/*** Parameters ***/
+/*** Functions ***/
+/*** Button mixins ***/
+.button {
+  border: solid 1px #e0e0e0;
+  border-radius: 3px;
+  display: inline-block;
+  font-weight: 300;
+  height: 40px;
+  line-height: 40px;
+  padding: 0 10px;
+  text-decoration: none;
+  transition-duration: 0.4s;
+  transition-property: color border;
+}
+
+.button-primary {
+  background: #666;
+  color: #fff;
+}
+.button-primary:hover {
+  background: gray;
+}
+
+.section-projects {
+  padding-top: 100px;
+}
+
+.project-item {
+  padding: 40px 0;
+}
+
+.project-item-header {
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+  .post-cover {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .nav-desktop {
+    display: none;
+  }
+  .nav-toggle {
+    display: block;
+  }
+}
